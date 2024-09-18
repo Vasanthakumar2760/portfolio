@@ -11,6 +11,18 @@ body{
 
 }
 
+.home{
+    background-image: url(./pics/pexels-codioful-7130560.jpg);
+    color: black;
+}
+.index-content{
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+
+
 .header{
     position: fixed;
     top: 0;
@@ -21,11 +33,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
 }
 
 .logo{
     font-size: 25px;
-    color: rgb(246, 249, 252);
+    color: rgb(14, 15, 15);
     text-decoration: none;
     font-weight: 600;
 }
@@ -36,7 +50,7 @@ body{
     font-weight:500px;
     color: rgb(250, 242, 242);
     margin-left: 25px;
-    transition: .3s;
+    transition: .3s;    
 }
 
 .navbar a:hover{
@@ -49,7 +63,60 @@ body{
     align-items: center;
     padding: 10%;
 }
+.cont{
+    background-image: url(./pics/pexels-codioful-7130560.jpg);
+    color: black;
+}
 
 .home-content{
     background-color:transparent;
+    margin-left: 10%;
+    margin-top: 15%;
+
+}
+
+
+
+.resume{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.vk{
+    height: 100vh;
+    display: flex;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+.vkk{
+    background-color:transparent;
+}
+
+/* 
+.vkk{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    padding: 10%;
+} */
+
+.hme{
+    height: 100vh;
+    display: flex;
+    padding: 10%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-tent{
+    background-color:transparent;
+}
+.about-body{
+    background-color: rgb(39, 169, 209);
+    color: rgb(247, 238, 238);
+}
+.project{
+    background-color:  rgb(39, 169, 209);   
 }
